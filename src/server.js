@@ -1,8 +1,12 @@
 // nodemon은 파일을 저장할 때 바로 반영되게 해줌. 서버를 껐다켰다 할 필요 없음.
-require("dotenv").config();
+import dotenv from "dotenv";
+import path from "path";
+dotenv.config({ path: path.resolve(__dirname, ".env")});
+
 import { GraphQLServer } from "graphql-yoga";
 import logger from "morgan";
 import schema from "./schema";
+import { sendSecretMail } from "./utils";
 
 const PORT = process.env.PORT || 4000;
 

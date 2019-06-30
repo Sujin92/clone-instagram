@@ -3,7 +3,9 @@
 
 ##  User Stories
 
-- [ ] Log in
+- [x] Create account
+- [ ] Create Secret
+- [ ] Confirm Secret (Log in)
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
 - [ ] Search by user
@@ -12,7 +14,6 @@
 - [ ] Follow / Unfollow User
 - [ ] See the full photo
 - [ ] Edit my profile
-- [x] Create account
 - [ ] Update photos
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
