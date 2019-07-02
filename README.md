@@ -8,10 +8,12 @@
 - [x] Confirm Secret (Log in)
 - [x] Like / Unlike a photo
 - [x] Comment on a photo
-- [ ] Search by user
-- [ ] Search by location
-- [ ] See user profile
-- [ ] Follow / Unfollow User
+- [x] Search by user
+- [x] Search by location
+- [x] Follow User
+- [x] Unfollow User
+- [x] See user profile
+- [ ] See My Profile
 - [ ] See the full photo
 - [ ] Edit my profile
 - [ ] Update photos
