@@ -13,8 +13,8 @@
 - [x] Follow User
 - [x] Unfollow User
 - [x] See user profile
-- [ ] See My Profile
-- [ ] See the full photo
+- [x] See My Profile
+- [x] See the full photo
 - [ ] Edit my profile
 - [ ] Update photos
 - [ ] Edit the photo (Delete)
