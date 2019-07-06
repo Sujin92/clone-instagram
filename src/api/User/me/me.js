@@ -1,3 +1,5 @@
+import { prisma } from "../../../../generated/prisma-client";
+
 export default {
   Query: {
     // 이중밑줄은 부모의 arguments, 밑줄 한개는 변수도 될 수 있음
