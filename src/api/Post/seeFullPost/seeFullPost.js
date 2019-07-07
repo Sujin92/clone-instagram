@@ -1,16 +1,11 @@
-import { COMMENT_FRAGMENT } from "../../../fragment";
+import { prisma } from "../../../../generated/prisma-client";
+import { FULL_POST_FRAGMENT } from "../../../fragment";
 
 export default {
   Query: {
     seeFullPost: async (_, args) => {
       const { id } = args;
-      const post = await prisma.post({ id });
-      const comments = await prisma.post({ id }).comments();
-      const likeCount = await prisma.likesConnection({
-        where: { post: { id } }
-      }).aggregate()
-        .count()
-        .$fragment(COMMENT_FRAGMENT);
+      return await prisma.post({ id }).$fragment(FULL_POST_FRAGMENT);
     }
   }
 };
