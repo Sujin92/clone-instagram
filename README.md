@@ -16,9 +16,9 @@
 - [x] See My Profile
 - [x] See the full photo
 - [x] Edit my profile
-- [ ] Update photos
-- [ ] Edit the photo (Delete)
-- [ ] See the feed
+- [x] Update photos
+- [x] Edit the photo (Delete)
+- [x] See the feed
 - [ ] See rooms
 - [ ] See room
 - [ ] Send private message
