@@ -19,7 +19,7 @@
 - [x] Update photos
 - [x] Edit the photo (Delete)
 - [x] See the feed
-- [ ] See rooms
-- [ ] See room
+- [x] See rooms
 - [ ] Send private message
+- [ ] See room
 - [ ] Receive message (Realtime)
