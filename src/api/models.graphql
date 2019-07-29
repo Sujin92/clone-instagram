@@ -1,5 +1,6 @@
 type User {
   id: ID!
+  avatar: String
   username: String!
   email: String!
   firstName: String
@@ -52,6 +53,20 @@ type Comment {
 
 type File {
   id: ID!
+  avatar: String!
+  username: String!
+  email: String!
+  lastName: String
+  firstName: String
+  fullName: String
+  bio: String
+  followers: [User!]
+  following: [User!]
+  posts: [Post!]
+  likes: [Like!]
+  comments: [Comment!]
+  rooms: [Room!]!
+  loginSecret: String
   url: String!
   post: Post!
   createdAt: String
