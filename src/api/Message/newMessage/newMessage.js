@@ -12,7 +12,7 @@ export default {
               node: { room: { id: roomId }}
             }
           ]
-        })
+        });
       },
       resolve: payload => payload
     }

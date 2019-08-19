@@ -20,6 +20,6 @@
 - [x] Edit the photo (Delete)
 - [x] See the feed
 - [x] See rooms
-- [ ] Send private message
-- [ ] See room
-- [ ] Receive message (Realtime)
+- [x] Send private message
+- [x] See room
+- [x] Receive message (Realtime)
